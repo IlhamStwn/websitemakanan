@@ -1,0 +1,17 @@
+/* .kotak{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+@media screen and (max-width : 768px){
+    .kotak{
+        background-color: black;
+    }
+    
+}
+*/
+/* jika ada layar yang berukuraan lebih dari 768 px maka code media screen tersebut tidak di jalankan tetapi jika di bawah 768px maka code tersebut akan di jalankan */
+@media screen and (max-width :768px) {
+
+   }
+

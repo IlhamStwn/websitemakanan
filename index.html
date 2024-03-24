@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Ramen</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark">
+    <!-- ini adalah navbar  -->
+    <nav class="navbar fixed-top navbar-light bg-light">
+      <div class="container-fluid">
+        <div class="header">
+          <a class="navbar-brand" href="#">Ramen Resto</a>
+        </div>
+        <nav class="nav-end">
+          <ul class="d-flex mt-3">
+            <li class="lapan"><a href="#konten">About</a></li>
+            <li class="lapan"><a href="#carouselExampleDark">Refrensi</a></li>
+            <li class="lapan"><a href="#menu">Menu</a></li>
+            <li class="lapan"><a href="#kontak">Contact</a></li>
+          </ul>
+        
+        </nav>
+      </div>
+    </nav>
+    <!-- penutup navbar -->
+    
+<!-- ini adalh gambar utama -->
+<div class="container-fluid text-center" id="foto">
+  <a href="https://www.instagram.com/ilhmstwnnn_/">
+    <button class="btn btn-primary" type="button" >
+    Pesan Online
+    </button>
+  </a>
+
+  <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+    <div class="offcanvas-header" >
+      <h5 class="offcanvas-title" id="offcanvasBottomLabel" style="color: black;">Offcanvas bottom</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body small">
+      <h3>hallo</h3><br>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum accusantium vero officia. Quibusdam nesciunt itaque ullam dolores, eos sapiente est aut debitis officiis dolorem ex porro labore sunt dolor aliquid rerum repudiandae quam tempora sed reiciendis, impedit in libero quos distinctio. Sed ab optio placeat voluptatem? Excepturi voluptatum illum quasi.</p>
+    </div>
+  </div>
+</div>
+
+    <!-- INI ADALAH ABOUT!!! -->
+<div class="container mt-5 text-center" id="konten">
+<div class="row justify-content-center" style="height: 1200px;">
+    <div class="col-sm-12 col-md-6 col-lg-5 text-center ddua" id="satu" >
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-5 text-center ssatu">
+        <h2>ABOUT</h2>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-5 text-center ddua" id="dua"> 
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-5 text-center ddua" id="tiga"></div>
+    <div class="col-sm-12 col-md-6 col-lg-5 text-center text-center ssatu"><h1 class="mt-5">A casual and one of a kind bistro</h1>
+    <p>Set in the heart of Villeray, Mesón is a casual, one of a kind bistro offering a variety of comforting and original Spanish inspired dishes. At Mesón, one can expect to be enthusiastically received by the restaurant’s young and dynamic team.</p></div>
+    <div class="col-sm-12 col-md-6 col-lg-5 text-center ddua" id="empat"></div>
+
+    <div class="col-sm-12  col-md-6 col-lg-5 text-center text-center ssatu"><p>
+        At the head of the team are the restaurant’s four owners: Victor Afonso, Sébastien Muniz, Marie-Fleur St-Pierre and Pedro Oliveira. The group shares a true love for the flavourful cooking the Iberian peninsula is known for.    <br>
+        The culinary experience at Mesón is enhanced by a courteous service and an appealing decor. The menu’s specialties, as combined with a pleasant atmosphere, are sure to satisfy your longing for delectable food enjoyed in the good company of friends.</p></div>
+
+    <div class="col-sm-12 col-md-6 col-lg-5 text-center ddua" id="lima">
+
+    </div>
+</div>
+</div>
+
+<!-- caraousel -->
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div> 
+  <!-- -->
+  <div class="carousel-inner" id="cara">
+    <div class="carousel-item active" id="t" data-bs-interval="10000">
+      <img src="promo.png" class="d-block w-100 gambar1" alt="..." >
+      <div class="carousel-caption d-none d-md-block" style="color: white;">
+        <h5>Ramen Japanese</h5>
+        <p>Yang di Buat dengan resep dari jepang langsung yang mempuyai rasa ciri khas yang pas <p>
+      </div>
+    </div>
+    <div class="carousel-item" id="t" data-bs-interval="2000">
+      <img src="indor.jpg" class="d-block w-100 gambar2" alt="..." >
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Ruangan Indor</h5>
+        <p>Yang dilengkapi dengan sebuah kemewahan dan di sambut oleh pemandangan yang indah</p>
+      </div>
+    </div>
+    <div class="carousel-item" id="t">
+      <img src="vip.jpg" class="d-block w-100 gambar3" alt="..." >
+      <div class="carousel-caption d-none d-md-block" style="color:black;">
+        <h5>Room VIP</h5>
+        <p> Sebuah ruangan private yang mewah tentunya buat anda yang lagi pengen sendiri atau kencan bersama pasangan anda</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- penutup carauosel -->
+
+<div class="container text-center " style="color: white; margin-top: 20px;" id="menu">
+  <h1>Hallo Pecinta Ramen</h1>
+  <p>Mesón’s menu is one that distinguishes itself by using a combination of audacious culinary creations as well as typical and traditional Spanish flavours, all while providing a comfort food feel.Inspired from different regions of Spain, the recipes at Mesón call for the use of fresh tomato, parsley and a variety of cheeses. The fish, seafood, poultry and meat are prepared in simple manner and aromatized with a balance of spices, olive oil and vinegar.</p></div>
+
+
+<!-- Menu -->
+  <div class="container text-center " id="" style="color: white; margin-top: 20px;">
+  <h2>List Menu </h2></div>
+
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+      <div>
+        <div class="kiri">
+          <h3>FRESH JUICE</h3> <h3> Rp.20.000</h3>
+        </div>
+        <div style="color: white;"><p>Orange or grapefruit</p></div>
+      </div>
+      </div>
+      <div class="col-6">
+        <div>
+          <div class="kiri">
+            <h3>PAN DORADO DE FRESA</h3> <h3> Rp.30.000</h3>
+          </div>
+          <div style="color: white;"><p>Fried Potatoes with "bravas" sauce</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-6">
+      <div>
+        <div class="kiri">
+          <h3>PATATAS BRAVAS</h3> <h3> Rp.45.000</h3>
+        </div>
+        <div style="color: white;"><p>Club sandwich, fries</p></div>
+      </div>
+      </div>
+
+      <div class="col-6">
+        <div>
+          <div class="kiri">
+            <h3>CLUB MESÓN</h3> <h3> Rp.30.000</h3>
+          </div>
+          <div style="color: white;"><p>Fruit salad</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-6">
+      <div>
+        <div class="kiri">
+          <h3>ENSALADA DE FRUTA</h3> <h3> Rp.25.000</h3>
+        </div>
+        <div style="color: white;"><p>Green salad</p></div>
+      </div>
+      </div>
+      <div class="col-6">
+        <div>
+          <div class="kiri">
+            <h3>GRAVLAX DE TRUCHA</h3> <h3> Rp.28.000</h3>
+          </div>
+          <div style="color: white;"><p>Trout gravlax, goat cheese whipped with pepper, herring caviar, cucumber, radish, poached egg, toast</p></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+      <div>
+        <div class="kiri">
+          <h3>ENSALADA VERDE</h3> <h3> Rp.20.000</h3>
+        </div>
+        <div style="color: white;"><p>Jam and cheese coca</p></div>
+      </div>
+      </div>
+          <div class="col-6">
+            <div>
+              <div class="kiri">
+                <h3>PATATAS BRAVAS CON TODO</h3> <h3> Rp.35.000</h3>
+              </div>
+              <div style="color: white;"><p>All dressed ‘’patatas bravas’’ and sunny side up egg</p></div>
+            </div>
+          </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+      <div>
+        <div class="kiri">
+          <h3>CHURROS CON CHOCOLATE
+          </h3> <h3> Rp.32.000</h3>
+        </div>
+        <div style="color: white;"><p>Churros with chocolate sauce</p></div>
+      </div>
+      </div>
+      <div class="col-6">
+        <div>
+          <div class="kiri">
+            <h3>SÁNDWICH DE CARNE</h3> <h3> Rp.35.000</h3>
+          </div>
+          <div style="color: white;"><p>Submarine with flank steak, Mesón spices, onions, caciocavallo, guindillas, homemade spicy sauce, fries</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- Contact Us -->
+<div class="container-fluid text-center kontak" id="kontak">
+  <h1 style="color: white;">CONTACT</h1>
+</div>
+
+
+<div class="container ">
+
+  <!-- PEMBUNGKUS DUA KOTAK SEKALIGUS -->
+  <div class="row duakontak">
+  <div class="col-6" >
+
+    <!-- INI ADALAH PEMBUNGKUS TEXT ADDREST -->
+    <div class="atas">
+     <div>
+       <h1>Address</h1>
+       <p>345 Villeray street,</p>
+       <p>Montreal, Québec</p>
+       <p>H2R 1G8</p>
+       <p>514-439-9089</p>
+     </div >
+     <!-- INI ADALAH TEXT BUSINES HOURS -->
+    <div class="text-center" id="tr">
+      <h1> Business Hours</h1>
+      <div class="row">
+      <div class="col-3 tx text"> Monday</div> 
+      <div class="col-3 tx"> </div> 
+       <div class="col-3 tx">Closed</div>
+      <div class="col-3 tx"></div>
+      </div>
+      <div class="row">
+      <div class="col-3 tx">Tuesday</div> 
+      <div class="col-3 tx">17:00 </div>
+      <div class="col-3 tx">-</div>
+      <div class="col-3 tx"> 22:00</div> 
+      </div>
+      <div class="row">
+      <div class="col-3 tx">Wednesday</div> 
+      <div class="col-3 tx">17:30</div> 
+      <div class="col-3 tx">-</div>
+      <div class="col-3 tx">23:00</div> 
+      </div>
+      <div class="row">
+      <div class="col-3 tx">Thursday </div> 
+      <div class="col-3 tx"> 17:30</div> 
+      <div class="col-3 tx">-</div>
+      <div class="col-3 tx"> 22:00</div> 
+     </div>
+      <div class="row">
+      <div class="col-3 tx">Friday</div> 
+      <div class="col-3 tx"> 17:30</div> 
+      <div class="col-3 tx">-</div>
+      <div class="col-3 tx"> 22:00 </div> 
+ </div>
+      <div class="row">
+      <div class="col-3 tx">Saturday</div> 
+      <div class="col-3 tx">17:30</div> 
+      <div class="col-3 tx">-</div>
+      <div class="col-3 tx">22:00</div> 
+    </div>
+      <div class="row">
+       <div class="col-3 tx">Sunday</div>
+       <div class="col-3 tx">11:00</div>
+       <div class="col-3 tx">-</div>
+       <div class="col-3 tx">16:00</div>
+      </div>
+    </div>
+    </div>
+    </div>
+  <div class="col-6">
+    <div class="mmap">
+    <h2 class="maps">Directions</h2>
+    <div class="map ">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26971.72786345011!2d98.64600251035102!3d3.588485170008391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1709708535698!5m2!1sid!2sid" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="container-fluid text-center"  style="height: 100px; background-color: white;">
+  <h3 style="padding-top: 40px;">@CopyRight</h3>
+</div>
+
+<script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+
+}
+.ssatu{
+    height: 300px;
+}
+
+#satu{
+  background-image: url(tangan.jpg);
+  background-size: cover;
+  height: 300px;
+}
+#dua{
+    background-image: url(minum.jpg);
+    background-size: cover;
+    background-position: 0 -250px;
+    height: 300px;
+}
+#tiga{
+    background-image: url(ruangan.jpg);
+    background-size: cover;
+    height: 300px;
+}
+#empat{
+    background-image: url(ramen2.jpg);
+    background-size: cover;
+    background-position: 0 -240px;
+    height: 300px;
+}
+#lima{
+    background-image: url(mie.jpg);
+    background-size: cover;
+    background-position: 0 -120px ;
+    height: 300px;
+}
+.kiri{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.kiri h3{
+    font-size: 20px;
+}
+#foto button{
+   margin-top: 550px;
+   background-color: blueviolet;
+   height: 40px;
+   width: 200px;
+   border-radius: 15px;
+}
+#foto{
+   background-image: url(ramen.jpg); 
+   height: 650px;
+   background-size: cover;
+   background-position: -18px 0;
+}
+#konten{
+
+    color: aliceblue;
+}
+
+#t{
+    height: 500px;
+    overflow: hidden;
+    
+}
+
+#t img {
+    width: 100%;
+    height:500px;
+    object-fit: cover;
+    
+}
+
+#t .gambar1 {
+    object-position: 0 -800px;
+}
+
+#t .gambar2 {
+    object-position: 0 -200px;
+}
+#cara{
+    margin-top: 50px;
+    height: 500px;
+
+}
+
+
+.kontak{
+    height: 150px;
+   background-image: url(tangan.jpg);
+   background-position: 0 -220px;
+   background-size: cover;
+   background-attachment: fixed;
+    margin-top: 50px;
+    align-items: center;
+    padding-top :50px;
+
+}
+
+.duakontak{
+    height: 700px;
+    color: white;
+    
+    display: flex;
+}
+
+
+.atas{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+#tr{
+    display: inline-block;
+    height: 220px;
+    width: 70%;
+    margin-top: 60px;
+}
+/* ini adalah text direction */
+.mmap{
+    margin-top: 190px;
+}
+/* ini adlaah maps nya */
+.map{
+    height: 300px;
+    margin-top: 40px;
+    width: 80%;
+    background-color: grey;
+}
+.tx{
+  font-size: 13px;
+  margin-right: -35px;
+}
+
+
+.lapan a{
+ margin-right:28px ;
+ text-decoration: none;
+ color: black;
+}
+
+/* ini adalah responsive */
+@media screen and (max-width :768px) {
+ #foto{
+   
+    display: none;
+  
+ }
+ .ssatu{
+    height: 100px;
+
+ }
+
+ .ddua{
+    height: 100vh;
+    width: 100%;
+  background-size: cover;
+ }
+
+ #t{
+    height: 400px;
+    overflow: hidden;
+    
+}
+
+#t img {
+    width: 100%;
+    height:400px;
+    object-fit: cover;
+}
+
+ .kiri h3{
+ font-size: 10px;
+ }
+
+
+
+
+
+}
